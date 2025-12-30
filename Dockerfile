@@ -11,7 +11,7 @@ RUN go build -o gochat
 
 
 # 运行阶段：使用轻量级Alpine镜像
-FROM alpine:latest
+FROM registry.cn-beijing.aliyuncs.com/sunwenbo-base/alpine:3.18.4
 
 # 设置工作目录
 WORKDIR /app
