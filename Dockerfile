@@ -1,5 +1,5 @@
 # 构建阶段：使用官方Golang镜像作为构建环境
-FROM registry.cn-beijing.aliyuncs.com/sunwenbo-base/golang:1.21 AS builder
+FROM registry.cn-beijing.aliyuncs.com/sunwenbo-base/golang:1.22 AS builder
 
 # 设置工作目录
 WORKDIR /app
